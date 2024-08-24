@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="script.js" /> -->
+  </head>
+
+  <body>
+    <div class="navtop">POTRAL</div>
+    <div class="subdiv">Add Sale</div>
+
+    <label>Seller</label>
+    <br />
+    <select id="seller"></select>
+    <br />
+    <label>Item</label>
+    <br />
+    <select id="item"></select>
+    <br />
+    <label>Quantity / kg </label>
+    <br />
+    <input type="number" id="quantity" value="0" />
+    <br />
+    <label>Price per kg</label>
+    <br />
+    <input type="number" id="price" value="0" />
+    <br />
+    <label>Total</label>
+    <br />
+    <input type="number" id="total" disabled />
+    <br />
+    <button id="submit" onclick="functionToSubmit()">Submit</button>
+  </body>
+
+  <script src="sales.js"></script>
+</html>
